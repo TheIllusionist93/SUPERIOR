@@ -9,7 +9,7 @@ registerFont('./Caveat-Regular.ttf', { family: 'Caveat' });
 // ═══════════════════════════════════════════════════════════════════
 
 const PROJECT_CONFIG = {
-  totalDays: 76,
+  totalDays: 77,
   startDate: '2025-11-17',  // Format: YYYY-MM-DD
   projectName: 'DOCTOR',
   
