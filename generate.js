@@ -19,7 +19,7 @@ const PROJECT_CONFIG = {
   // Mögliche Positionen: 'top', 'right', 'bottom', 'left', 'top-right', 'top-left', 'bottom-right', 'bottom-left'
   events: [
     {
-      date: '2026-05-18',  // Format: YYYY-MM-DD
+      date: '2026-05-17',  // Format: YYYY-MM-DD
       title: 'Drehstart',
       position: 'top-left',
       
@@ -34,7 +34,7 @@ const PROJECT_CONFIG = {
   
   // Ausnahmen: An diesen Wochenendtagen wird gearbeitet
   weekendWorkDays: [
-    '2026-05-17',
+    '2026-05-15',
     // Weitere Daten hier einfügen
   ],
   
