@@ -19,7 +19,7 @@ const PROJECT_CONFIG = {
   // Mögliche Positionen: 'top', 'right', 'bottom', 'left', 'top-right', 'top-left', 'bottom-right', 'bottom-left'
   events: [
     {
-      date: '2026-05-17',  // Format: YYYY-MM-DD
+      date: '2025-05-17',  // Format: YYYY-MM-DD
       title: 'Drehstart',
       position: 'top-left',
       
