@@ -41,6 +41,9 @@ const PROJECT_CONFIG = {
   // Ausnahmen: An diesen Wochentagen ist frei
   weekdayOffDays: [
     '2026-05-25',
+    '2026-05-29',
+    '2026-06-04',
+    '2026-06-05',
     // Weitere Daten hier einfügen
   ]
 };
