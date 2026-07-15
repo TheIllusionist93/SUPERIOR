@@ -28,7 +28,7 @@ const PROJECT_CONFIG = {
      // position: 'top-left',
     },
     // Weitere Events hier einfügen:
-     { date: '2026-07-18', title: 'Bergfest', position: 'top-right', },
+     { date: '2026-07-18', title: 'Bergfest', position: 'top-left', },
     // { date: '2026-03-10', title: 'Finale Woche' },  // Automatische Platzierung
   ],
   
@@ -45,6 +45,7 @@ const PROJECT_CONFIG = {
     '2026-06-04',
     '2026-06-05',
     '2026-07-03',
+    '2026-07-14',
     // Weitere Daten hier einfügen
   ]
 };
