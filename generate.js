@@ -9,7 +9,7 @@ registerFont('./Caveat-Regular.ttf', { family: 'Caveat' });
 // ═══════════════════════════════════════════════════════════════════
 
 const PROJECT_CONFIG = {
-  totalDays: 61,
+  totalDays: 59,
   startDate: '2026-05-18',  // Format: YYYY-MM-DD
   projectName: 'SUPERIOR',
   
@@ -46,6 +46,7 @@ const PROJECT_CONFIG = {
     '2026-06-05',
     '2026-07-03',
     '2026-07-14',
+    '2026-07-31',
     // Weitere Daten hier einfügen
   ]
 };
