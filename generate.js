@@ -9,9 +9,9 @@ registerFont('./Caveat-Regular.ttf', { family: 'Caveat' });
 // ═══════════════════════════════════════════════════════════════════
 
 const PROJECT_CONFIG = {
-  totalDays: 59,
-  startDate: '2026-05-18',  // Format: YYYY-MM-DD
-  projectName: 'SUPERIOR',
+  totalDays: 42,
+  startDate: '2026-10-05',  // Format: YYYY-MM-DD
+  projectName: 'Passaukrimi 12+13',
   
   // Events: Beliebig viele Meilensteine definieren
   // Nur Events die heute oder in der Zukunft liegen, werden angezeigt
@@ -805,9 +805,9 @@ function generateWallpaper(projectConfig, design) {
   const startY = 350;
   const lineHeight = 550;
   
-  ctx.fillText('SUPERIOR', 50, startY);
-  ctx.fillText('ERIOR SUP', 100, startY + lineHeight);
-  ctx.fillText('OR SUPERI', 20, startY + lineHeight * 2);
+  ctx.fillText('PASSAUKRIMI', 50, startY);
+  ctx.fillText('AUKRIMI PASS', 100, startY + lineHeight);
+  ctx.fillText('IMI PASSAUKR', 20, startY + lineHeight * 2);
   
   ctx.restore();
   
