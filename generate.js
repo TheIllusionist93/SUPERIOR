@@ -28,7 +28,7 @@ const PROJECT_CONFIG = {
      // position: 'top-left',
     },
     // Weitere Events hier einfügen:
-     { date: '2026-11-03', title: 'Halbzeit!!', position: 'right', },
+     { date: '2026-11-03', title: 'Halbzeit!!', position: 'left', },
     // { date: '2026-03-10', title: 'Finale Woche' },  // Automatische Platzierung
   ],
   
