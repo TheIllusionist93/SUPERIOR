@@ -1,7 +1,7 @@
 name: Generate Wallpaper
 on:
   schedule:
-    - cron: '0 0 * * *'  # Täglich um Mitternacht UTC
+    - cron: '17 1 * * *'  # 01:17 UTC = 02:17 Uhr (Winter) / 03:17 Uhr (Sommer)
   workflow_dispatch:  # Manuell ausführbar
   push:
     branches: [ main ]
@@ -30,6 +30,8 @@ jobs:
         
     - name: Generate wallpapers
       run: node generate.js
+      env:
+        TZ: Europe/Berlin  # Datum wird in deutscher Zeit berechnet
       
     - name: Commit and push wallpapers
       run: |
